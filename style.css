@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.d1{
+    background-color: black;
+   padding: 12px 24px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+
+
+
+.menu li a:hover{
+    color: rgb(23, 229, 71);
+}
+
+.btn:hover{
+    color: rgb(23, 229, 71);
+    background-color: white;
+    border: 1px solid  rgb(23, 229, 71);
+}
+.btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color:  rgb(23, 229, 71);
+    border:none
+}
+.bussiness{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    gap: 74px;
+}
+main h1,p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+main h1{
+    font-size: 36px;
+}
+.btn{
+    margin-top: 25px;
+}
+.h{
+    text-align: center;
+}
+.dadcards div{
+   background-color: white;
+    width: 384px;
+    height: 364px;
+    margin-left: 83px;
+    border: 2px solid whitesmoke;
+}
+.dadcards{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.dadcards div:hover{
+   color: white;
+   background-color:  rgb(23, 229, 71);
+}
+.Dad{
+    width: 1480px;
+    height: 780px;
+    background-color: whitesmoke;
+    margin-left: 83px;
+}
